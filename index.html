@@ -1,68 +1,82 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Página</title>
-    <link rel="stylesheet" href="styles.css" />
-    <!-- Enlazamos el archivo CSS -->
-  </head>
-  <body>
-    <!-- Cabecera -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctico2</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+    <link rel="icon" href="assets/images/css.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
+</head>
+<body>
     <header>
-      <p>Trabajo Practico CSS</p>
+        <h1>Trabajo Práctico de CSS</h1>
     </header>
     <main>
-      <h2>Propiedades CSS</h2>
-      <hr />
-      <section class="text-section">
-        <p>
-          Este es un párrafo con propiedades de texto aplicadas mediante CSS.
-          Utiliza una paleta de azules para un diseño armónico.
-        </p>
-        <blockquote>
-          "Este es un bloque de cita que también tiene estilos específicos." -
-          Juan Cruz Robledo
-        </blockquote>
-      </section>
-      <h2>Propiedades de Cajas en CSS</h2>
-      <hr />
-      <section class="box-section">
-        <div class="box box1">
-          <p>
-            Esta es la Caja 1. Tiene un fondo azul acero con un borde azul que
-            realza su presencia.
-          </p>
-        </div>
-        <div class="box box2">
-          <p>
-            Esta es la Caja 2. Destacada con un fondo azul cielo y un borde azul
-            más grueso para mayor impacto visual.
-          </p>
-        </div>
-        <div class="position-section">
-          <div class="relativo">
-            <p>Contenedor Relativo</p>
-            <div class="absoluto">
-              <p>Elemento Absoluto</p>
+        <!-- SECCIÓN 1: PROPIEDADES DE TEXTO -->
+        <section class="propiedad-texto">
+            <h2>Propiedades de Texto en CSS</h2>
+            <hr>
+            <p>El lenguaje de estilo en cascada (CSS) permite a los desarrolladores web controlar la apariencia y el diseño de una página web</p>
+            <blockquote cite="https://es.wikipedia.org/wiki/CSS">
+                <p><em>"Esto es una cita para escribir acerca del diseño" - Wikipedia</em></p>
+            </blockquote>
+        </section>
+
+        <!-- SECCIÓN 2: PROPIEDADES DE CAJA -->
+        <section class="propiedad-caja">
+            <h2>Propiedades de Caja en CSS</h2>
+            <hr>
+            <div class="caja1">
+                Esta es una caja con propiedades de padding, margin, border y box-shadows, lo que le da un efecto tridimensional.
             </div>
-          </div>
-        </div>
-      </section>
-      <h2>Principios de Grid CSS</h2>
-      <hr />
-      <div class="grid-container">
-        <div class="grid-item">Elemento 1</div>
-        <div class="grid-item">Elemento 2</div>
-        <div class="grid-item">Elemento 3</div>
-        <div class="grid-item">Elemento 4</div>
-      </div>
-      <h2>Principios de Animaciones CSS</h2>
-      <hr />
-      <section class="animation-section">
-        <div class="animacion"></div>
-        <div class="mover"></div>
-      </section>
+            <div class="caja2">
+                Caja destacada con borde más grueso y un fondo diferente.
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: POSICIÓN DE ELEMENTOS -->
+        <section class="posicion-elementos">
+            <h2>Posición relativa y absoluta en CSS</h2>
+            <hr>
+            <div class="relativo">
+                Esta caja tiene posición relativa y se ajusta en relación a su posición original.
+                <div class="absoluto">
+                    Esta caja tiene posición absoluta y se posiciona respecto a la caja padre.
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: PRINCIPIOS DE GRID -->
+        <section class="principios-grid">
+            <h2>Principios de Grid en CSS</h2>
+            <hr>
+            <div class="grid-container">
+                <div class="grid-item">
+                    Elemento 1
+                </div>
+                <div class="grid-item">
+                    Elemento 2
+                </div>
+                <div class="grid-item">
+                    Elemento 3
+                </div>
+                <div class="grid-item">
+                    Elemento 4
+                </div>
+            </div>
+        </section>
+        <!-- SECCIÓN 5: PRINCIPIOS DE ANIMACIONES -->
+        <section class="principios-animaciones">
+            <h2>Principios de Animaciones en CSS</h2>
+            <hr>
+            <div class="animacion">
+            </div>
+            <div class="mover">
+            </div>
+        </section>
     </main>
-  </body>
+</body>
 </html>
